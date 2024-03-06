@@ -20,7 +20,7 @@ struct Record
 	struct Date date;
 };
 
-void myCentr(string s, int wLine) 
+void myCentr(string s, int wLine)
 {
 
 	int w = s.length();
@@ -55,7 +55,7 @@ void printDate(unsigned short day, unsigned short month, unsigned short year, in
 	cout.width(delta); cout << " ";
 }
 
-void printWithZero4(int num, int width) 
+void printWithZero4(int num, int width)
 {
 
 	if (num < 10) {
@@ -75,7 +75,7 @@ void printWithZero4(int num, int width)
 
 }
 
-void Draw(struct Record* records) 
+void Draw(struct Record* records)
 {
 	cout << endl;	cout.width(80); cout.fill('-'); cout << "-" << endl;
 	cout.fill(' '); cout.width(79);  cout << left << "|Сельскохозяйственные предприятия"; cout << "|" << endl;
